@@ -1,0 +1,8 @@
+fastapi             # El framework principal
+uvicorn[standard]   # El servidor para correr la API
+pydantic            # Para validación de datos
+pydantic-settings   # Para manejar variables de entorno (.env)
+sqlmodel            # Para base de datos (ORM)
+psycopg2-binary     # Driver de PostgreSQL para SQLAlchemy
+python-jose[cryptography]  # Para generar tokens de seguridad (JWT)
+passlib[bcrypt]     # Para encriptar contraseñas
